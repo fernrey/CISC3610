@@ -76,6 +76,6 @@ function drawCanvas() {
             
             ctx.font = "30px Arial";		
 			ctx.strokeStyle = '#FFFFFF';									
-			ctx.strokeText("Desert at night", 1200, 1300);
+			ctx.strokeText("Desert at night", 1200, 1100);
 		}
 }
