@@ -14,12 +14,20 @@ function drawCanvas() {
 			}																					
 			//pyramid
 			ctx.beginPath();
-			ctx.moveTo(0,1300);
+			ctx.moveTo(0,1100);
+			ctx.lineTo(600,500);
+			ctx.lineTo(1200,1000);
+			ctx.lineTo(0,1000);
+			ctx.fillStyle = '#D5B800';
+			ctx.fill();	
+            //the shadow of the pyramid
+            ctx.beginPath();
+			ctx.moveTo(0,2000);
 			ctx.lineTo(600,500);
 			ctx.lineTo(1200,1000);
 			ctx.lineTo(0,1000);
 			ctx.fillStyle = '#FFD545';
-			ctx.fill();					
+			ctx.fill();	
 			//sand but at night
 			ctx.fillStyle ='#260A09';			
             ctx.fillRect (0,1000,1400,100);	
