@@ -1,11 +1,69 @@
 .title {
     text-align: center;
+    background-color: bisque;
+    padding: 10px;
+    width: 50%;
+    margin:  10px auto;
 }
-
+.Container {
+    background-color: rgb(72, 180, 207);
+}
 .mainContainer {
     display: flex;
+    flex-direction: row;
     text-align: center;
     justify-content: center;
-    flex-direction: column;
+    margin: 10px;
+}
 
+.left  {
+    margin: 10px;
+    padding: 30px;
+}
+
+.left-title {
+    color: white;
+}
+
+.right {
+    margin: 10px;
+    padding: 30px;
+}
+
+.right-title {
+    color: white;
+}
+
+.left-chart {
+    list-style: none;
+}
+
+.left-chart li {
+    font-size: 25px;
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.left-chart li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.right-chart {
+    list-style: none;
+    margin: 20px;
+}
+.right-chart li {
+    font-size: 25px;
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.right-chart li a{
+    text-decoration: none;
+    color: white;
 }
