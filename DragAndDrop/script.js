@@ -1,7 +1,7 @@
 var config = {
     type: Phaser.AUTO,
-    width: 800,
-    height: 700,
+    width: 900,
+    height: 800,
     autoCenter: true,
     backgroundColor: '#ffffcc',
     scene: {
@@ -13,7 +13,7 @@ var config = {
 var game = new Phaser.Game(config);
 
 function preload() {
-    this.load.image('goku', 'images/goku.png');
+    this.load.image('goku', 'images/gokuui.png');
     this.load.image('frieza', 'images/Frieza.png');
     this.load.image('jiren', 'images/jiren.png');
     this.load.image('tournament', 'images/tournament.png');
