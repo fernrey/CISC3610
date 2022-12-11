@@ -13,10 +13,10 @@ var config = {
 var game = new Phaser.Game(config);
 
 function preload() {
-    this.load.image('goku', 'assets/goku.png');
-    this.load.image('frieza', 'assets/Frieza.png');
-    this.load.image('jiren', 'assets/jiren.png');
-    this.load.image('tournament', 'assets/tournament.png');
+    this.load.image('goku', 'images/goku.png');
+    this.load.image('frieza', 'images/Frieza.png');
+    this.load.image('jiren', 'images/jiren.png');
+    this.load.image('tournament', 'images/tournament.png');
 }
 
 function create() {
