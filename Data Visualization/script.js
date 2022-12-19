@@ -115,7 +115,7 @@ let BarChart = new Chart(hbar, {
         }]
     },
     options: {
-        indexAxis: 'y',
+        indexAxis: 'x',
         plugins: {
             title: {
                 display: true,
