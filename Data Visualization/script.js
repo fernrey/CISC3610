@@ -5,20 +5,20 @@ let donutChart = new Chart(donut, {
     type: 'doughnut',
     data: {
         labels: [
-            'HENRY STREET SCHOOL FOR INTERNATIONAL STUDIES',
-            'UNIVERSITY NEIGHBORHOOD HIGH SCHOOL',
-            'Edward R. Murrow High School',
-            'Forest Hills High School',
-            'Fort Hamilton High School',
-            'Franklin Delano Roosevelt High School',
-            'James Madison High School',
-            'John Dewey High School',
-            'Midwood High School',
-            'Stuyvesant High School'
+            'Princeton University',
+            'Massachusetts Institute of Technology',
+            'Harvard University',
+            'Stanford University',
+            'Yale University',
+            'University of Chicago',
+            'Johns Hopkins University',
+            'University of Pennsylvania',
+            'California Institute of Technology',
+            'Duke University'
         ],
         datasets: [{
-            label: '2012 SAT Test Takers',
-            data: [29, 91, 725, 686, 641, 627, 694, 385, 349, 68],
+            label: 'Fall 2021 Undergraduate Enrollment',
+            data: [5321, 4638, 7153, 7645, 6536, 7526, 6132, 9962, 987, 6883],
             backgroundColor: [
                 '#6052d8',
                 '#6052d8',
@@ -50,13 +50,13 @@ let donutChart = new Chart(donut, {
         plugins: {
             title: {
                 display: true,
-                text: '2012 SAT Test Takers',
+                text: 'Fall 2021 Undergraduate Enrollment',
                 font: {
                     size: 20,
                 }
             },
             legend: {
-                position: 'right',
+                position: 'left',
                 labels: {
                     textAlign: 'center',
                     font: {
@@ -73,20 +73,20 @@ let BarChart = new Chart(hbar, {
     type: 'bar',
     data: {
         labels: [
-            'HENRY STREET SCHOOL FOR INTERNATIONAL STUDIES',
-            'UNIVERSITY NEIGHBORHOOD HIGH SCHOOL',
-            'Midwood High School',
-            'Edward R. Murrow High School',
-            'James Madison High School',
-            'Forest Hills High School',
-            'Fort Hamilton High School',
-            'Franklin Delano Roosevelt High School',
-            'John Dewey High School',
-            'Brooklyn Studio Secondary School'
+            'Princeton University',
+            'Massachusetts Institute of Technology',
+            'Harvard University',
+            'Stanford University',
+            'Yale University',
+            'University of Chicago',
+            'Johns Hopkins University',
+            'University of Pennsylvania',
+            'California Institute of Technology',
+            'Duke University'
         ],
         datasets: [{
-            label: '2010 SAT Test Takers by School',
-            data: [29, 91, 725, 686, 641, 627, 694, 385, 349, 68],
+            label: 'Fall 2021 Undergraduate Enrollment',
+            data: [5321, 4638, 7153, 7645, 6536, 7526, 6132, 9962, 987, 6883],
             backgroundColor: [
                 '#ff1414',
                 '#ff1414',
@@ -120,7 +120,7 @@ let BarChart = new Chart(hbar, {
         plugins: {
             title: {
                 display: true,
-                text: '2010 SAT Test Takers',
+                text: 'Fall 2021 Undergraduate Enrollment',
                 font: {
                     size: 25,
                 }
